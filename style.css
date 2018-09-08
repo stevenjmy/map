@@ -126,4 +126,4 @@ footer {
 	padding: 1%;
 }
 body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:20%; }
+        #map { position:absolute; top:0; bottom:0; width:20%; height:10%;}
