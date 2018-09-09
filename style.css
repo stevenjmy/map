@@ -66,13 +66,13 @@ overflow: hidden;
 .logo{
 float: left;
 margin-top: 10px;
-	background-color: #FF4719
+	
 }
 
 nav{
 float: right;
 line-height: 70px;
-background-color: #FF4719;
+background-color:#ffffff;
 }
 
 nav li{
