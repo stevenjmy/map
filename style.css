@@ -126,4 +126,6 @@ footer {
 	padding: 1%;
 }
 body { margin:0; padding:0; }
-        #map { position:static; left:0; bottom:0; width:40%; height:10%;}
+        #map1 { position:static; left:0; bottom:0; width:40%; height:10%;}
+        #map2 { position:static; right:0; bottom:0; width:40%; height:10%;}
+
