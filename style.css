@@ -55,6 +55,11 @@ max-width: 960px;
 width: 96%;
 margin: auto;
 }
+
+.map-container {
+width: auto;
+height: 60px;
+}
 /*---------HEADER----------*/
 
 header{
