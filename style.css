@@ -127,5 +127,5 @@ footer {
 }
 body { margin:0; padding:0; }
         #map1 { position:static; left:0; bottom:0; width:40%; height:10%;}
-        #map2 { position:static; right:0; bottom:0; width:40%; height:10%;}
+        #map2 { position:relative; right:0; bottom:0; width:40%; height:10%;}
 
