@@ -63,7 +63,7 @@ height: 60px;
 /*---------HEADER----------*/
 
 header{
-background: #fff;
+background: #FF4719;
 margin-bottom: 20px;
 overflow: hidden;	
 }
@@ -76,8 +76,8 @@ margin-top: 10px;
 nav{
 float: right;
 line-height: 70px;
-padding: 60px;
-background-color:#FF4719;
+
+background-color:#ffffff;
 }
 
 nav li{
