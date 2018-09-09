@@ -66,13 +66,12 @@ overflow: hidden;
 .logo{
 float: left;
 margin-top: 10px;
-	
 }
 
 nav{
 float: right;
 line-height: 70px;
-background-color:#ffffff;
+background-color: #ffffff;
 }
 
 nav li{
@@ -80,7 +79,7 @@ color:#001f3f;
 display: inline-block;
 padding: 5px 20px;
 margin-left: 10px;
-background:#FF4719;
+background:#DDDDDD;
 line-height: normal;
 text-decoration: none;
  }
@@ -88,8 +87,8 @@ text-decoration: none;
 .content h2{
 background: #FF4719;
 padding: 10px;
-border-radius: 20px;
-margin-bottom: 40px;
+border-radius: 5px;
+margin-bottom: 20px;
 }
 
 .content .art1{
@@ -126,7 +125,3 @@ footer {
 	font-size: 14px;
 	padding: 1%;
 }
-body { margin:0; padding:0; }
-        #map1 { position:absolute; left:0; bottom:0; width:40%; height:10%;}
-        #map2 { position:absolute; right:0; bottom:0; width:20%; height:10%;}
-
