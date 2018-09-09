@@ -30,6 +30,7 @@ front-size: 25px;
 
 
 }
+h5{ color:white; front-size:25px; text-align:center;}
 
 h3 {
 	
@@ -93,7 +94,7 @@ line-height: normal;
 text-decoration: none;
  }
 /* -------CONTENT------- */
-.content h2{
+.content h5{
 background: #FF4719;
 padding: 60px;
 border-radius: 5px;
