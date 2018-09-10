@@ -5,27 +5,7 @@
    <div>
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <title>My first website</title>
-   </div>
-   <div>
-   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
-  <script src='./female3000.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body { margin:0; padding:0; }
-        #map { position:static; left:0; bottom:0; width:40%;height:60% } 
-      </style>
-       </div>
-       
-       <div>
-   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
-  <script src='./male3000.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body { margin:0; padding:0; }
-        #map1 { position:static; right:0; bottom:0; width:40%;height:60% } 
-    </style>
+   
    </div>
 
 </head>
@@ -57,6 +37,14 @@
     <h4>The 3D map below shows the relationship between total number of people and the number of people earning above 3000 dollars per week, females represented as on the left and males represented as right. The color represent the total number of people in that region, while the height represent the number of people earning above 3000 dollars per week.</h4>
     <br>
       <p class="art1">
+         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+  <script src='./female3000.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:static; left:0; bottom:0; width:40%;height:60% } 
+      </style>
      
      <div id='map'></div>
 <script>
@@ -102,12 +90,20 @@ map.addLayer({
     
    <br><br>
     <p class="u1">
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+  <script src='./male3000.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map1 { position:static; right:0; bottom:0; width:40%;height:60% } 
+    </style>
      
-     <div id='map'></div>
+     <div id='map1'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoic3RldmVuam15IiwiYSI6ImNqbG0xZzdhczEzcDEza281ajV6YXR2djMifQ.lsTXrW6arMzrjZhRHsgfnA';
 var map = new mapboxgl.Map({
-    container: 'map', // container id
+    container: 'map1', // container id
     style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
     center: [151.004105, -33.813002], // starting position [lng, lat]
     pitch: 45,
