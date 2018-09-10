@@ -87,16 +87,16 @@ map.addLayer({
     
    <br><br>
     <p class="u1">
-        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
   <script src='./male3000.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
-    
+
      
-     <div id='map1' style='width: 50%; height: 400px; margin-left: 50%;></div>
+     <div id='map1' style='width: 50%; height: 400px; float: right'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoic3RldmVuam15IiwiYSI6ImNqbG0xZzdhczEzcDEza281ajV6YXR2djMifQ.lsTXrW6arMzrjZhRHsgfnA';
-var map1 = new mapboxgl.Map({
+var map = new mapboxgl.Map({
     container: 'map1', // container id
     style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
     center: [151.004105, -33.813002], // starting position [lng, lat]
@@ -104,8 +104,8 @@ var map1 = new mapboxgl.Map({
 bearing: -17.6,
     zoom: 9 // starting zoom
 });
-map1.on('load', function() {
-map1.addLayer({
+map.on('load', function() {
+map.addLayer({
 "id": "data",
 "type": "fill-extrusion",
 "source": {
@@ -125,7 +125,7 @@ map1.addLayer({
 'property': 'male3000',
 "stops":[
 [0, 10],
-[80, 7000]
+[64, 7000]
 ]
 },
 'fill-extrusion-opacity': 0.7
