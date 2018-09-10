@@ -41,12 +41,9 @@
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
   <script src='./female3000.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body { margin:5; padding:5%; }
-        #map { position:static; left:10; bottom:-10; width:25%;height:45% } 
-      </style>
+
      
-     <div id='map'></div>
+     <div id='map' style='width: 50%; height: 400px; float: left'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoic3RldmVuam15IiwiYSI6ImNqbG0xZzdhczEzcDEza281ajV6YXR2djMifQ.lsTXrW6arMzrjZhRHsgfnA';
 var map = new mapboxgl.Map({
@@ -81,7 +78,7 @@ map.addLayer({
 [64, 7000]
 ]
 },
-'fill-extrusion-opacity': 1
+'fill-extrusion-opacity': 0.7
 }
 });
 });
@@ -94,15 +91,12 @@ map.addLayer({
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
   <script src='./male3000.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body { margin:5; padding:5%; }
-        #map1 { position:absolute; right:0; bottom:0; width:30%;height:50% } 
-    </style>
+    
      
-     <div id='map1'></div>
+     <div id='map1' style='width: 50%; height: 400px; margin-left: 50%;></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoic3RldmVuam15IiwiYSI6ImNqbG0xZzdhczEzcDEza281ajV6YXR2djMifQ.lsTXrW6arMzrjZhRHsgfnA';
-var map = new mapboxgl.Map({
+var map1 = new mapboxgl.Map({
     container: 'map1', // container id
     style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
     center: [151.004105, -33.813002], // starting position [lng, lat]
@@ -110,9 +104,9 @@ var map = new mapboxgl.Map({
 bearing: -17.6,
     zoom: 9 // starting zoom
 });
-map.on('load', function() {
-map.addLayer({
-"id": "data",
+map1.on('load', function() {
+map1.addLayer({
+"id": "data1",
 "type": "fill-extrusion",
 "source": {
 'type': 'geojson',
@@ -134,7 +128,7 @@ map.addLayer({
 [80, 7000]
 ]
 },
-'fill-extrusion-opacity': 1
+'fill-extrusion-opacity': 0.7
 }
 });
 });
