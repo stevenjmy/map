@@ -180,24 +180,24 @@ maptwo.addLayer({
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
 
      
-     <div id='map2' style='width: 50%; height: 400px; float: left'></div>
+     <div id='map3' style='width: 50%; height: 400px; float: left'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoic3RldmVuam15IiwiYSI6ImNqbG0xZzdhczEzcDEza281ajV6YXR2djMifQ.lsTXrW6arMzrjZhRHsgfnA';
-var map = new mapboxgl.Map({
-    container: 'map2', // container id
+var mapthree = new mapboxgl.Map({
+    container: 'map3', // container id
     style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
     center: [151.004105, -33.813002], // starting position [lng, lat]
     pitch: 45,
 bearing: -17.6,
     zoom: 9 // starting zoom
 });
-map2.on('load', function() {
-map2.addLayer({
-"id": "data",
+mapthree.on('load', function() {
+mapthree.addLayer({
+"id": "data3",
 "type": "fill-extrusion",
 "source": {
 'type': 'geojson',
-'data': data
+'data': data3
 },
 'paint': {
 'fill-extrusion-color' : {
@@ -227,24 +227,24 @@ map2.addLayer({
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
 
      
-     <div id='map3' style='width: 50%; height: 400px; float:right'></div>
+     <div id='map4' style='width: 50%; height: 400px; float:right'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoic3RldmVuam15IiwiYSI6ImNqbG0xZzdhczEzcDEza281ajV6YXR2djMifQ.lsTXrW6arMzrjZhRHsgfnA';
-var map = new mapboxgl.Map({
-    container: 'map3', // container id
+var mapfour = new mapboxgl.Map({
+    container: 'map4', // container id
     style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
     center: [151.004105, -33.813002], // starting position [lng, lat]
     pitch: 45,
 bearing: -17.6,
     zoom: 9 // starting zoom
 });
-map3.on('load', function() {
-map3.addLayer({
-"id": "data",
+mapfour.on('load', function() {
+mapfour.addLayer({
+"id": "data4",
 "type": "fill-extrusion",
 "source": {
 'type': 'geojson',
-'data': data
+'data': data4
 },
 'paint': {
 'fill-extrusion-color' : {
