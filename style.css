@@ -26,7 +26,7 @@ front-size: 25px;
 
 }
 h5{ 
-margin:auto; front-size:30px; text-align:left;}
+front-size:25px; text-align:left;}
 
 h3 {
 	
@@ -95,6 +95,12 @@ a {
 }
 
 /* -------CONTENT------- */
+.content h5{
+
+text-align: left;
+front-size: 25px;
+}
+
 .content h2{
 background: #FF4719;
 padding: 100px;
