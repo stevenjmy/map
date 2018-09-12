@@ -82,7 +82,7 @@ background-color:#777777;
 
 nav li{
 color:#ffffff;
-display: block;
+display: line-block;
 padding: 5px 20px;
 margin-left: 10px;
 background:#777777;
