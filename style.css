@@ -89,6 +89,11 @@ background:#777777;
 line-height: normal;
 text-decoration: none;
  }
+
+a {
+    color: white;
+}
+
 /* -------CONTENT------- */
 .content h2{
 background: #FF4719;
